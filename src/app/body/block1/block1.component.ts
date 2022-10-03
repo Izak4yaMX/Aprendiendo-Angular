@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./block1.component.css'],
 })
 export class Block1Component implements OnInit {
-  public show: Boolean = true;
+  public show1: Boolean = true;
 
   constructor() {}
 
