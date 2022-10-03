@@ -1,0 +1,18 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-block2',
+  templateUrl: './block2.component.html',
+  styleUrls: ['./block2.component.css']
+})
+export class Block2Component implements OnInit {
+
+  fecha = new Date();
+  dia = this.fecha.getDay();
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
